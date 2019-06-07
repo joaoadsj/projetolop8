@@ -229,5 +229,65 @@ if( estadoDisparo ) {
      yin2[9]=400}
      if(yin2[10]<50){
      yin2[10]=400}
+     if(dist(x,y,xin2[1],yin2[1])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[2],yin2[2])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[3],yin2[3])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[4],yin2[4])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[5],yin2[5])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[6],yin2[6])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[7],yin2[7])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[8],yin2[8])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[9],yin2[9])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
+  if(dist(x,y,xin2[10],yin2[10])< raioO + raioP)
+  {
+    x=10
+    y=200
+      vidas=vidas-1
+  }
  }
 }
