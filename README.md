@@ -21,11 +21,11 @@ var raioD=3
 function setup() {
   createCanvas(400, 400);
   for(i=0;i<=qtdObjetos;i++){
-  vxi[i]=random(50,400)
+  vxi[i]=random(250,400)
   vyi[i]=random(50,400) 
 }
    for(i=1;i<qtdObjetosn2;i++){
-     xin2[i]=random(50,400)
+     xin2[i]=random(50,300)
   yin2[i]=random(50,400)}
 }
 function draw() {
@@ -70,6 +70,27 @@ if( estadoDisparo ) {
   {
     estadoDisparo=false
   }
+  if(x!=10 || y!=200){
+  vxi[1]=vxi[1]-1}
+   if(x!=10 || y!=200){
+  vxi[2]=vxi[2]-1}
+   if(x!=10 || y!=200){
+  vxi[3]=vxi[3]-1}
+   if(x!=10 || y!=200){
+  vxi[4]=vxi[4]-1}
+   if(x!=10 || y!=200){
+  vxi[5]=vxi[5]-1}
+   if(x!=10 || y!=200){
+  vxi[6]=vxi[6]-1}
+   if(x!=10 || y!=200){
+  vxi[7]=vxi[7]-1}
+   if(x!=10 || y!=200){
+  vxi[8]=vxi[8]-1}
+   if(x!=10 || y!=200){
+  vxi[9]=vxi[9]-1}
+   if(x!=10 || y!=200){
+  vxi[10]=vxi[10]-1}
+ 
   if(dist(x,y,vxi[1],vyi[1])< raioO + raioP)
   {
     x=10
@@ -197,16 +218,16 @@ if( estadoDisparo ) {
    
    for(i=1;i<qtdObjetosn2;i++){
      ellipse(xin2[i],yin2[i],20,20)}
-   yin2[1]=yin2[1]-1
-    yin2[2]=yin2[2]-2
-     yin2[3]=yin2[3]-3
-      yin2[4]=yin2[4]-2
-       yin2[5]=yin2[5]-1
-        yin2[6]=yin2[6]-2
+   yin2[1]=yin2[1]-13
+    yin2[2]=yin2[2]-3
+     yin2[3]=yin2[3]-8
+      yin2[4]=yin2[4]-5
+       yin2[5]=yin2[5]-3
+        yin2[6]=yin2[6]-13
          yin2[7]=yin2[7]-4
-          yin2[8]=yin2[8]-2
-           yin2[9]=yin2[9]-1
-            yin2[10]=yin2[10]-1
+          yin2[8]=yin2[8]-8
+           yin2[9]=yin2[9]-4
+            yin2[10]=yin2[10]-3
    if(yin2[1]<50){
      yin2[1]=400}
      if(yin2[1]<50){
